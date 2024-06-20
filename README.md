@@ -4,14 +4,12 @@
 
 ## Table of Contents
 
-- Features
-- Requirements
-- Setup
-- Running the Server
-- Testing the Application
-- API Documentation
-- Directory Structure
-- License
+- [Features](#features)
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [Running the Server](#running-the-server)
+- [Testing the Application](#testing-the-application)
+
 
 ## Features
 
@@ -35,9 +33,25 @@ traversed into the cloned respository
 2. Install Dependencies
 Ensure you have Go modules enabled and then install dependencies:
 
-go mod tidy
+- go mod tidy
 
 3. Configure SMTP Settings
-Set up your SMTP configuration. Make sure that values are correct as per your SMTP cred values.
+Set up your SMTP configuration.
+### Make sure that values are correct as per your SMTP credential values.
+Example values like below :
+- SMTP_SERVER=smtp.example.com
+- SMTP_PORT=587
+- SMTP_USER=your-email@example.com
+- SMTP_PASSWORD=your-email-password
+- FROM_EMAIL=your-email@example.com
+
+## Running the server
+
+- go run main.go to start the main server
+
+## Testing the Application
+
+Unit tests are provided for the core functionalities. To run the tests: go test ./... 
+This command will run all test in the project
 
 
