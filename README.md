@@ -51,7 +51,9 @@ Example values like below :
 
 Unit tests are provided for the core functionalities. 
 - To run the tests use command - go test ./...
+- Ensure to follow the comments as the test result might not come to PASS
+- Make sure that some values are setup in prior before running the tests
   
-This command will run all test in the project
+Above command is to run all test in the project
 
 
