@@ -26,18 +26,16 @@
 ## Setup
 
 1. Clone the Repository -
-git clone https://github.com/yourusername/loan-service.git
+git clone https://github.com/Bhavin1996/Loan_service.git
 
-traversed into the cloned respository
+traverse into the cloned respository
 
 2. Install Dependencies
-Ensure you have Go modules enabled and then install dependencies:
-
+- Ensure you have Go modules enabled and then install dependencies via below command
 - go mod tidy
 
-3. Configure SMTP Settings
-Set up your SMTP configuration.
-### Make sure that values are correct as per your SMTP credential values.
+3. Configure SMTP Settings to Set up your SMTP configuration.
+#### Make sure that values are correct as per your SMTP credential values.
 Example values like below :
 - SMTP_SERVER=smtp.example.com
 - SMTP_PORT=587
