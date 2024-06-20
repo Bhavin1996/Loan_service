@@ -51,7 +51,9 @@ Example values like below :
 
 ## Testing the Application
 
-Unit tests are provided for the core functionalities. To run the tests: go test ./... 
+Unit tests are provided for the core functionalities. 
+- To run the tests use command - go test ./...
+  
 This command will run all test in the project
 
 
